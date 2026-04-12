@@ -58,24 +58,6 @@ This allows for rapid iteration and model comparison.
 ---
 
 ## 📁 Project Structure
-```
-ml_stat_arb/
-│
-├── src/
-│   data.py          # data ingestion
-│   features.py      # feature engineering
-│   models.py        # ML models
-│   walkforward.py   # rolling training
-│   backtest.py      # strategy evaluation
-│
-├── notebooks/
-│   full_pipeline.ipynb   # end-to-end workflow
-│
-├── configs/
-│   config.yaml
-│
-└── results/
-```
 
 ```
 ml_stat_arb/
