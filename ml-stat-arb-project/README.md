@@ -76,7 +76,31 @@ ml_stat_arb/
 │
 └── results/
 
-
+ml_stat_arb/
+│
+├── src/
+│ ├── data.py # Data ingestion and preprocessing
+│ ├── features.py # Feature engineering (lags, volatility, momentum, spreads)
+│ ├── models.py # Machine learning models (Ridge, Random Forest)
+│ ├── walkforward.py # Walk-forward training and prediction
+│ ├── backtest.py # Backtesting engine and performance evaluation
+│ └── metrics.py # Utility functions (Sharpe, etc.)
+│
+├── notebooks/
+│ └── full_pipeline.ipynb # End-to-end research workflow
+│
+├── configs/
+│ └── config.yaml # Configuration parameters
+│
+├── data/
+│ ├── raw/ # Raw downloaded data
+│ └── processed/ # Cleaned and feature-engineered data
+│
+├── results/
+│ └── plots/ # Output plots (equity curve, etc.)
+│
+├── requirements.txt
+└── README.md
 ---
 
 ### 🔍 Description
