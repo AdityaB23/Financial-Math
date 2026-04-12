@@ -58,7 +58,7 @@ This allows for rapid iteration and model comparison.
 ---
 
 ## 📁 Project Structure
-
+```
 ml_stat_arb/
 │
 ├── src/
@@ -75,7 +75,7 @@ ml_stat_arb/
 │   config.yaml
 │
 └── results/
-
+```
 ml_stat_arb/
 │
 ├── src/
