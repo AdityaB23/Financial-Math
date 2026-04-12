@@ -1,0 +1,2 @@
+lookback: 20
+train_window: 1000
