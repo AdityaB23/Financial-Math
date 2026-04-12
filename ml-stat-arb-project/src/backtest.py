@@ -2,19 +2,16 @@
 import numpy as np
 import pandas as pd
 
-def backtest(predictions, returns):
+def backtest(preds, returns):
 
-    signal = np.sign(predictions)
-    strategy = signal.shift(1) * returns
+    aligned = returns.loc[preds.index]
 
-    equity = (1+strategy).cumprod()
+    signal = np.sign(preds)
+    strat = signal.shift(1) * aligned
 
-    sharpe = np.sqrt(252) * strategy.mean()/strategy.std()
+    equity = (1+strat).cumprod()
 
-    drawdown = equity / equity.cummax() - 1
+    sharpe = np.sqrt(252) * strat.mean() / strat.std()
+    drawdown = (equity / equity.cummax() - 1).min()
 
-    return {
-        "equity": equity,
-        "sharpe": sharpe,
-        "drawdown": drawdown.min()
-    }
+    return strat, equity, sharpe, drawdown
