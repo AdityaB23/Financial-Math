@@ -76,6 +76,8 @@ ml_stat_arb/
 │
 └── results/
 ```
+
+```
 ml_stat_arb/
 │
 ├── src/
@@ -101,6 +103,7 @@ ml_stat_arb/
 │
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ### 🔍 Description
