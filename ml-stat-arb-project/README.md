@@ -76,6 +76,25 @@ ml_stat_arb/
 │
 └── results/
 
+
+---
+
+### 🔍 Description
+
+- **`src/`**: Core research logic, modularized for reuse and clarity  
+- **`notebooks/`**: Interactive experimentation and analysis  
+- **`data/`**: Separation of raw and processed datasets  
+- **`results/`**: Outputs such as plots and performance metrics  
+- **`configs/`**: Configuration for experiments and parameters  
+
+---
+
+### ⚙️ Design Principles
+
+- **Modularity**: Each component (data, features, models, backtest) is isolated  
+- **Reproducibility**: Pipeline can be rerun end-to-end  
+- **Scalability**: Easy to extend with new models or features  
+- **Clarity**: Clean separation between research and implementation  
 ---
 
 ## ⚙️ Methodology
