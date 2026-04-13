@@ -105,8 +105,8 @@ Includes transaction costs and performance metrics.
 
 | Model         | Sharpe | Mean Return | Volatility |
 |---------------|--------|------------|------------|
-| Ridge         | 0.7–1.0 | ~0.03%     | ~1.0%      |
-| Random Forest | 0.9–1.3 | ~0.04%     | ~0.9%      |
+| Ridge         | 0.40–0.45 | ~0.030%     | ~1.0%      |
+| Random Forest | 0.02–0.03 | ~0.002%     | ~1.0%      |
 
 Results are based on walk-forward validation with transaction costs.
 
