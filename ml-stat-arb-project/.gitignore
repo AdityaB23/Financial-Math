@@ -19,10 +19,10 @@ Thumbs.db
 # Logs
 *.log
 
-# Data (optional: keep processed data if you want reproducibility)
+# Data
 data/raw/
 
-# Results (optional: comment out if you want to keep outputs)
+# Results 
 # results/
 
 # IDE
