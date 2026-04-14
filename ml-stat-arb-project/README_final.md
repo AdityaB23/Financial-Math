@@ -130,6 +130,13 @@ Results are based on walk-forward validation with transaction costs.
 
 ---
 
+### Return Distribution
+
+![Return Distribution](results/plots/return_distribution.png)
+
+---
+
+
 ### Output Files
 
 - results/metrics.csv
