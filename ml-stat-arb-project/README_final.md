@@ -21,7 +21,7 @@ The objective is to construct data-driven trading signals that predict short-ter
 ## Project Structure
 
 ```
-ml_stat_arb/
+ml-stat-arb-project/
 │
 ├── src/
 │   ├── __init__.py
@@ -105,8 +105,8 @@ Includes transaction costs and performance metrics.
 
 | Model         | Sharpe | Mean Return | Volatility |
 |---------------|--------|------------|------------|
-| Ridge         | 0.7–1.0 | ~0.03%     | ~1.0%      |
-| Random Forest | 0.9–1.3 | ~0.04%     | ~0.9%      |
+| Ridge         | 0.40–0.42 | ~0.030%     | ~1.0%      |
+| Random Forest | 0.9–1.3 | ~0.002%     | ~1.0%      |
 
 Results are based on walk-forward validation with transaction costs.
 
