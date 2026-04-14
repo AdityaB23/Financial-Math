@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data (optional: keep processed data if you want reproducibility)
+data/raw/
+
+# Results (optional: comment out if you want to keep outputs)
+# results/
+
+# IDE
+.vscode/
+.idea/
+
+# Mac/Linux temp files
+*.swp
